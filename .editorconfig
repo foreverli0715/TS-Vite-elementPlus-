@@ -1,0 +1,14 @@
+# http://editorconfig.org
+root = true  # 表明是最顶层的配置文件，设置为true时，会停止继续向上查找
+
+[*]
+charset = utf-8  # 编码格式，支持Latin1、UTF-8等。
+indent_style = space
+indent_size = 2  # 缩进宽度，即列数。如果indent_style为tab（制表符缩进），则默认等于tab_width。
+end_of_line = lf  # 换行符，lf、cr或crlf。
+insert_final_newline = true  # 设置为true时，表明文件以一个空白行结
+trim_trailing_whitespace = true  # 设置为true时，会除去换行行首的空白字符，对“.md”格式有明显作用。
+
+[*.md]
+insert_final_newline = false
+trim_trailing_whitespace = false
